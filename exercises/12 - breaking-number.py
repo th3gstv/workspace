@@ -1,4 +1,4 @@
-import math
+from math import trunc
 n1 = float(input(f'Insert a number: '))
-n2 = n1 /
-print(f'The number choosed has to parts, {n1:.0f} and ')
+d1 = trunc(n1)
+print('The value choosed was {} and his whole portion is {}'.format(n1, d1))
